@@ -1,0 +1,19 @@
+Name,Last Ip Used,Platform,Policy,Version,Status Light,Status,Security Update Status
+Laptop-1,123.123,Windows 11,Sample Policy,20.0.16,Managed,Online,Up-to-Date
+Laptop-2,124.123,Windows 12,Sample Policy,20.0.17,Managed,Online,Up-to-Date
+Duplicate,125.123,Windows 13,Sample Policy,20.0.18,Managed,Online,Up-to-Date
+Duplicate,126.123,Windows 14,Sample Policy,20.0.19,Managed,Online,Up-to-Date
+Duplicate,127.123,Windows 15,Sample Policy,20.0.20,Managed,Online,Up-to-Date
+Laptop-3,128.123,Windows 16,Sample Policy,20.0.21,Managed,Offline,Out-of-Date
+Mac 1,129.123,Mac OS X,Sample Policy,20.0.22,Managed,Offline,Out-of-Date
+Mac 2,130.123,Mac OS X,Sample Policy,20.0.23,Managed,Offline,Out-of-Date
+Linux 1234,131.123,Ubuntu,Sample Policy,20.0.24,Managed,Online,Out-of-Date
+PC 1234,132.123,Windows 11,Sample Policy,20.0.25,Managed,Online,Up-to-Date
+PC7890,133.123,Windows 12,Sample Policy,20.0.26,Managed,Online,Up-to-Date
+PC 1234,134.123,Windows 13,Sample Policy,20.0.27,Managed,Online,Up-to-Date
+Server 1,135.123,Windows Server 2008,Sample Policy,20.0.28,Managed,Online,Up-to-Date
+server 2,136.123,Windows Server 2003,Sample Policy,20.0.29,Managed,Online,Up-to-Date
+Dup Server,137.123,Windows Server 2003,Sample Policy,20.0.30,Managed,Online,Up-to-Date
+Server out,138.123,Windows Server 2003,Sample Policy,20.0.31,Managed,Online,Out-of-Date
+Server out 2,139.123,Windows Server 2016,Sample Policy,20.0.32,Managed,Online,Out-of-Date
+Dup Server,140.123,Windows Server 2003,Sample Policy,20.0.33,Managed,Online,Up-to-Date
