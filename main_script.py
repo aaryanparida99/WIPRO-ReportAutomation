@@ -2,15 +2,13 @@ import pandas as pd
 import openpyxl
 
 
+#Removes duplicate entries based on hostname
 def remove_duplicates(data_logs):
     data_logs.drop_duplicates(subset = "Name", keep = "first", inplace = True)
 
 
-
-
-    
-    
-def calc(data_logs):
+#Segregates the entries into server and workstation  
+def segregate(data_logs):
     updated_server = 0
     outdated_server = 0
     updated_ws = 0
@@ -22,6 +20,7 @@ def calc(data_logs):
     compliance(df_server,df_workstation)
 
 
+#Calculates compliance and stores it in a new excel document
 def compliance(df_server,df_workstation):
     updated_server, updated_ws, outdated_server, outdated_ws = 0 ,0 ,0, 0
     server_comp = 0
@@ -42,10 +41,6 @@ def compliance(df_server,df_workstation):
     output_df.to_excel("AV Complaince Report.xlsx", index = False)
 
 
-    
-
-
-
 
 
 if __name__ =="__main__":
@@ -55,7 +50,7 @@ if __name__ =="__main__":
     data_logs = pd.read_csv(path)
     output_df = pd.DataFrame()
     remove_duplicates(data_logs)
-    calc(data_logs)
+    segregate(data_logs)
     
     
 
